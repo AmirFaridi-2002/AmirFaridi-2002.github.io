@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Amir Faridi # the website title (if blank, full name will be used instead)
 first_name: Amir
 middle_name: 
 last_name: Faridi
@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicons/TOMBOMBADIL_ICON.jpeg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://amirfaridi-2002.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -211,6 +211,8 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+
+  - jekyll-redirect-from
 
 # Sitemap settings
 defaults:
