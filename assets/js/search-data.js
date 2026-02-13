@@ -51,25 +51,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "post-post-citationnn",
-        
-          title: "Post Citationnn",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citationnn/";
-          
-        },
-      },{
+        },{id: "nav-books",
+          title: "books",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "nav-tom-bombadil",
+          title: "tom bombadil",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/tom-bombadil/";
+          },
+        },{id: "books-regarding-the-pain-of-others",
+          title: 'Regarding the Pain of Others',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Regarding_The_Pain_Of_Others/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
