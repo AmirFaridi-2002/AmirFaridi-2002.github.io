@@ -49,6 +49,7 @@ jobs:
           touch _site/.nojekyll
 
       - name: Purge unused CSS 🧹
+        if: false
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
