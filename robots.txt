@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://amirfaridi-2002.github.io/sitemap.xml
+Sitemap: https://amirfaridi-2002.github.io/pages/AmirFaridi-2002/sitemap.xml

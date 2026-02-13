@@ -7,75 +7,111 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/pages/AmirFaridi-2002/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/pages/AmirFaridi-2002/blog/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/pages/AmirFaridi-2002/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/pages/AmirFaridi-2002/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/pages/AmirFaridi-2002/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/pages/AmirFaridi-2002/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/pages/AmirFaridi-2002/teaching/";
           },
         },{id: "nav-books",
           title: "books",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/pages/AmirFaridi-2002/books/";
           },
         },{id: "nav-tom-bombadil",
           title: "tom bombadil",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/tom-bombadil/";
+            window.location.href = "/pages/AmirFaridi-2002/tom-bombadil/";
           },
-        },{id: "books-regarding-the-pain-of-others",
+        },{id: "books-for-the-win",
+          title: 'For the Win',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/pages/AmirFaridi-2002/books/For_The_Win/";
+            },},{id: "books-momma-amp-the-meaning-of-life",
+          title: 'Momma &amp;amp; the Meaning of Life',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/pages/AmirFaridi-2002/books/Momma_And_The_Meaning_Of_Lfe/";
+            },},{id: "books-regarding-the-pain-of-others",
           title: 'Regarding the Pain of Others',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/Regarding_The_Pain_Of_Others/";
+              window.location.href = "/pages/AmirFaridi-2002/books/Regarding_The_Pain_Of_Others/";
+            },},{id: "projects-correctness-and-incorrectness-reasoning-for-quantum-programs",
+          title: 'Correctness and Incorrectness Reasoning for Quantum Programs',
+          description: "BSC Thesis Report (University of Tehran)",
+          section: "Projects",handler: () => {
+              window.location.href = "/pages/AmirFaridi-2002/projects/BSc-Thesis-Report/";
             },},{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/amirfaridi_2002", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%61%6D%69%72%66%61%72%69%64%69%32%30%30%32@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/AmirFaridi-2002", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/amirfaridi2002", "_blank");
         },
       },{
       id: 'light-theme',
