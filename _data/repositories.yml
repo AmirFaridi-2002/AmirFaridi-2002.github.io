@@ -1,6 +1,5 @@
-github_users:
-  - AmirFaridi-2002
-
-repo_description_lines_max: 2
-
 github_repos:
+  - repo: AmirFaridi-2002/Solutions
+    description: "This repository collects my worked solutions for several 
+      books I've been studying. If you'd like to contribute—either by adding to 
+      the existing books or by starting solutions for a new book—feel free to email me"

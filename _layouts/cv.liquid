@@ -6,6 +6,36 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
+
+
+        
+        {% if page.cv_repo_btn %}
+          <a
+            href="{{ page.cv_repo_btn }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-sm btn-outline-secondary"
+          >
+            <i class="fa-brands fa-github"></i> CV repo
+          </a>
+        {% endif %}
+
+        {% if page.cv_pdf_btn %}
+          <a
+            {% if page.cv_pdf_btn contains '://' %}
+              href="{{ page.cv_pdf_btn }}"
+            {% else %}
+              href="{{ page.cv_pdf_btn | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-sm btn-outline-primary"
+          >
+            <i class="fa-solid fa-file-pdf"></i> PDF
+          </a>
+        {% endif %}
+
+
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}

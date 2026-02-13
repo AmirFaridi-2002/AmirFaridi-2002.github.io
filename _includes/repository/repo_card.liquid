@@ -1,0 +1,78 @@
+{% assign item = include.repository %}
+
+{% if item.repo %}
+  {% assign full = item.repo %}
+  {% assign desc = item.description %}
+{% else %}
+  {%- comment -%} fallback if you ever pass a plain string {%- endcomment -%}
+  {% assign full = item %}
+  {% assign desc = nil %}
+{% endif %}
+
+{% assign parts = full | split: '/' %}
+{% assign owner = parts[0] %}
+{% assign name  = parts[1] %}
+{% assign url = "https://github.com/" | append: full %}
+
+
+{% assign style = "flat-square" %}
+{% assign cache = "3600" %}
+
+{%- comment -%}
+Dark palette: labelColor=111827 (slate-900)
+Light palette: labelColor=f8fafc (slate-50)
+{%- endcomment -%}
+
+
+<div class="repo-card">
+  <div class="repo-card__top">
+    <a class="repo-card__title" href="{{ url }}" target="_blank" rel="noopener noreferrer">
+      {{ name }}
+      <span class="repo-card__owner">/{{ owner }}</span>
+    </a>
+  </div>
+
+  {% if desc %}
+    <div class="repo-card__desc">{{ desc }}</div>
+  {% endif %}
+
+
+  <div class="repo-card__badges">
+
+    <!-- Top language (keep dynamic language color by NOT setting &color=...) -->
+    <img class="only-dark" loading="lazy" alt="Top language"
+         src="https://img.shields.io/github/languages/top/{{ full }}?style={{ style }}&label=lang&labelColor=111827&cacheSeconds={{ cache }}" />
+    <img class="only-light" loading="lazy" alt="Top language"
+         src="https://img.shields.io/github/languages/top/{{ full }}?style={{ style }}&label=lang&labelColor=f8fafc&cacheSeconds={{ cache }}" />
+
+    <!-- Languages count -->
+    <img class="only-dark" loading="lazy" alt="Languages count"
+         src="https://img.shields.io/github/languages/count/{{ full }}?style={{ style }}&label=langs&labelColor=111827&color=38bdf8&cacheSeconds={{ cache }}" />
+    <img class="only-light" loading="lazy" alt="Languages count"
+         src="https://img.shields.io/github/languages/count/{{ full }}?style={{ style }}&label=langs&labelColor=f8fafc&color=0284c7&cacheSeconds={{ cache }}" />
+
+    <!-- Stars -->
+    <img class="only-dark" loading="lazy" alt="Stars"
+         src="https://img.shields.io/github/stars/{{ full }}?style={{ style }}&label=stars&labelColor=111827&color=fbbf24&cacheSeconds={{ cache }}" />
+    <img class="only-light" loading="lazy" alt="Stars"
+         src="https://img.shields.io/github/stars/{{ full }}?style={{ style }}&label=stars&labelColor=f8fafc&color=d97706&cacheSeconds={{ cache }}" />
+
+    <!-- Forks -->
+    <img class="only-dark" loading="lazy" alt="Forks"
+         src="https://img.shields.io/github/forks/{{ full }}?style={{ style }}&label=forks&labelColor=111827&color=a78bfa&cacheSeconds={{ cache }}" />
+    <img class="only-light" loading="lazy" alt="Forks"
+         src="https://img.shields.io/github/forks/{{ full }}?style={{ style }}&label=forks&labelColor=f8fafc&color=7c3aed&cacheSeconds={{ cache }}" />
+
+    <!-- Last commit -->
+    <img class="only-dark" loading="lazy" alt="Last commit"
+         src="https://img.shields.io/github/last-commit/{{ full }}?style={{ style }}&label=last%20commit&labelColor=111827&color=34d399&cacheSeconds={{ cache }}" />
+    <img class="only-light" loading="lazy" alt="Last commit"
+         src="https://img.shields.io/github/last-commit/{{ full }}?style={{ style }}&label=last%20commit&labelColor=f8fafc&color=059669&cacheSeconds={{ cache }}" />
+
+    <!-- License -->
+    <img class="only-dark" loading="lazy" alt="License"
+        src="https://img.shields.io/github/license/{{ full }}?style={{ style }}&label=license&labelColor=111827&color=94a3b8&cacheSeconds={{ cache }}" />
+    <img class="only-light" loading="lazy" alt="License"
+        src="https://img.shields.io/github/license/{{ full }}?style={{ style }}&label=license&labelColor=f8fafc&color=64748b&cacheSeconds={{ cache }}" />
+  </div>
+</div>

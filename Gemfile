@@ -25,6 +25,7 @@ group :jekyll_plugins do
     gem 'classifier-reborn'  # used for content categorization during the build
 
     gem 'jekyll-redirect-from'
+    gem 'jekyll-github-metadata'
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
