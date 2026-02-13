@@ -7,84 +7,84 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/pages/AmirFaridi-2002/";
+      window.location.href = "/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-books",
           title: "books",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/books/";
+            window.location.href = "/books/";
           },
         },{id: "nav-tom-bombadil",
           title: "tom bombadil",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/pages/AmirFaridi-2002/tom-bombadil/";
+            window.location.href = "/tom-bombadil/";
           },
         },{id: "books-for-the-win",
           title: 'For the Win',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/pages/AmirFaridi-2002/books/For_The_Win/";
+              window.location.href = "/books/For_The_Win/";
             },},{id: "books-momma-amp-the-meaning-of-life",
           title: 'Momma &amp;amp; the Meaning of Life',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/pages/AmirFaridi-2002/books/Momma_And_The_Meaning_Of_Lfe/";
+              window.location.href = "/books/Momma_And_The_Meaning_Of_Lfe/";
             },},{id: "books-regarding-the-pain-of-others",
           title: 'Regarding the Pain of Others',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/pages/AmirFaridi-2002/books/Regarding_The_Pain_Of_Others/";
+              window.location.href = "/books/Regarding_The_Pain_Of_Others/";
             },},{id: "projects-correctness-and-incorrectness-reasoning-for-quantum-programs",
           title: 'Correctness and Incorrectness Reasoning for Quantum Programs',
           description: "BSC Thesis Report (University of Tehran)",
           section: "Projects",handler: () => {
-              window.location.href = "/pages/AmirFaridi-2002/projects/BSc-Thesis-Report/";
+              window.location.href = "/projects/BSc-Thesis-Report/";
             },},{
         id: 'social-discord',
         title: 'Discord',
