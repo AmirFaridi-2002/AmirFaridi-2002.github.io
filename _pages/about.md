@@ -29,4 +29,4 @@ latest_posts:
 
 Hi :)
 
-The image you see is a picture of [Tom Bombadil](/tom-bombadil)  😄
+<!--- The image you see is a picture of [Tom Bombadil](/tom-bombadil)  😄 --->
