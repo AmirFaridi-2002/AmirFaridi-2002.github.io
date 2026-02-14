@@ -75,6 +75,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Momma_And_The_Meaning_Of_Lfe/";
+            },},{id: "books-the-midnight-library",
+          title: 'The Midnight Library',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The_Midnight_Library/";
             },},{id: "books-regarding-the-pain-of-others",
           title: 'Regarding the Pain of Others',
           description: "",
