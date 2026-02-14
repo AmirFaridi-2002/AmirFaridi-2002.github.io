@@ -14,10 +14,8 @@ These writings are my BSc thesis report on program logics for reasoning about *c
 ---
 
 ### Part I. Classical Foundations
-<!---
-1. **Classical Setting:**
-   [Open Chapter 1 (PDF)](/assets/pdf/BSc_Thesis_Report/01-classical-setting.pdf){:target="_blank"}
---->
+1. **Core Classical Setting:**
+    &nbsp;&nbsp;[Chapter 1 (PDF)](https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20I/1/01-CoreClassicalSetting.pdf)
 
 <!---
 2. **Hoare Logic (HL)**
