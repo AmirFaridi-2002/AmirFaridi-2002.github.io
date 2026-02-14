@@ -8,7 +8,7 @@ cover: assets/img/book_covers/Regarding_The_Pain_Of_Others.jpg
 olid: OL22523480M
 isbn: 0312422199
 
-date: 2026-02-13
+date: 2026-02-05
 
 subtitle: "Farrar, Straus and Giroux edition"
 released: 2003
@@ -19,8 +19,6 @@ format: paperback
 
 categories:
   - nonfiction
-  - essays
-  - photography
   - media-criticism
   - war
   - history
@@ -37,11 +35,11 @@ status: finished
 stars: 2.5
 rating: 2.5
 
-buy_link: https://www.amazon.com/Regarding-Pain-Others-Susan-Sontag/dp/0312422199
+# buy_link: https://www.amazon.com/Regarding-Pain-Others-Susan-Sontag/dp/0312422199
 
 # Reading timeline
-started: ""
-finished: ""
+started: "2026-02-03"
+finished: "2026-02-05"
 
 summary: "A sharp meditation on war images"
 content_warning:
@@ -81,4 +79,4 @@ Across its short, numbered chapters, she circles a set of stubborn questions:
 - How much of what we “see” in an image is carried by captions, narratives, and the political frames around it?
 - What is the difference between remembering through images and understanding through history?
 
-Sontag doesn’t argue that war images are useless—she argues against the easy hopes we place in them. Photographs can stop us, haunt us, and sometimes change public conversation. But they can also be absorbed, repeated, aestheticized, instrumentalized, and forgotten. The ethical challenge is not only to feel something when confronted with pain, but to think clearly about the conditions under which that feeling becomes knowledge—or becomes noise. And if you read this book to help your sense of what is happening—inside an image, inside a narrative, and inside your own response, it does its job.
+Sontag doesn’t argue that war images are useless—she argues against the easy hopes we place in them. Photographs can stop us, haunt us, and sometimes change public conversation. But they can also be absorbed, repeated, aestheticized, instrumentalized, and forgotten. The ethical challenge is not only to feel something when confronted with pain, but to think clearly about the conditions under which that feeling becomes knowledge—or becomes noise.

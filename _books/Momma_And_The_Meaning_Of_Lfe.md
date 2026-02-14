@@ -8,7 +8,7 @@ cover: assets/img/book_covers/Momma_And_The_Meaning_Of_Life.webp
 olid: OL3343941M
 isbn: 0060958389
 
-date: 2026-02-13
+# date:
 
 subtitle: "Tales of Psychotherapy"
 released: 1999
@@ -18,10 +18,8 @@ language: en
 format: paperback
 
 categories:
-  - nonfiction
   - psychology
   - psychotherapy
-  - memoir
   - philosophy
 
 tags:
@@ -37,10 +35,10 @@ status: reading
 stars:
 rating:
 
-buy_link: https://www.amazon.com/Momma-Meaning-Life-Tales-Psychotherapy/dp/0749927488
+# buy_link: https://www.amazon.com/Momma-Meaning-Life-Tales-Psychotherapy/dp/0749927488
 
 # Reading timeline
-started: ""
+started: "2026-02-14"
 finished: ""
 
 summary: "A collection of therapeutic case stories exploring existential anxiety, love, guilt, death, and the search for meaning."
