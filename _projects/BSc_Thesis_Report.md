@@ -14,20 +14,69 @@ These writings are my BSc thesis report on program logics for reasoning about *c
 ---
 
 ### Part I. Classical Foundations
-
 <div style="padding-left: 24px;">
-
 <table>
   <tr>
-    <td style="width:260px;"><strong>1. Core Classical Setting:</strong></td>
+    <td style="width:400px;"><strong>1. Core Classical Setting:</strong></td>
     <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20I/1/01-CoreClassicalSetting.pdf">Chapter 1 (PDF)</a></td>
   </tr>
   <tr>
-    <td style="width:260px;"><strong>2. Hoare Logic:</strong></td>
+    <td style="width:400px;"><strong>2. Hoare Logic:</strong></td>
     <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20I/2/02-HoareLogic.pdf">Chapter 2 (PDF)</a></td>
   </tr>
+  <tr>
+    <td style="width:400px;"><strong>3. Incorrectness Logic:</strong></td>
+    <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20I/3/03-IncorrectnessLogic.pdf">Chapter 3 (PDF)</a></td>
+  </tr>
 </table>
+</div>
 
+
+<br>
+### Part II. Quantum Prerequisites
+<div style="padding-left:24px;">
+<table>
+  <tr>
+    <td style="width:400px;"><strong>4. Quantum Prerequisites:</strong></td>
+    <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20II/4/04-QuantumPrerequisites.pdf">Chapter 4 (PDF)</a></td>
+  </tr>
+</table>
+</div>
+
+
+<br>
+### Part III. Quantum PL and Semantics
+<div style="padding-left:24px;">
+<table>
+  <tr>
+    <td style="width:400px;"><strong>5. QWhile Language:</strong></td>
+    <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20III/5/05-QWhileLanguage.pdf">Chapter 5 (PDF)</a></td>
+  </tr>
+  <tr>
+    <td style="width:400px;"><strong>6. Denotational semantics as super-operators:</strong></td>
+    <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20III/6/06-DenotationalSemanticsSO.pdf">Chapter 6 (PDF)</a></td>
+  </tr>
+  <tr>
+    <td style="width:400px;"><strong>7. Relational Semantics:</strong></td>
+    <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20III/7/07-RelationalSemanticsMS.pdf">Chapter 7 (PDF)</a></td>
+  </tr>
+</table>
+</div>
+
+
+<br>
+### Part IV. Quantum Program Logics
+<div style="padding-left:24px;">
+<table>
+  <tr>
+    <td style="width:400px;"><strong>8. Quantum Correctness Reasoning:</strong></td>
+    <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20IV/8/08-QCorrectnessReasoning.pdf">Chapter 8 (PDF)</a></td>
+  </tr>
+  <tr>
+    <td style="width:400px;"><strong>9. Quantum Incorrectness Reasoning:</strong></td>
+    <td><a href="https://raw.githubusercontent.com/AmirFaridi-2002/BScThesis/master/Part%20IV/9/09-QIncorrectnessReasoning.pdf">Chapter 9 (PDF)</a></td>
+  </tr>
+</table>
 </div>
 
 <!---
