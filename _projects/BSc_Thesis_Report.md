@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: "Correctness and Incorrectness Reasoning for Quantum Programs"
 card_title: "Quantum Program Logics"
@@ -125,4 +125,4 @@ Links: (coming soon)
 Links: (coming soon)
 
 ---
---->
+---> -->
