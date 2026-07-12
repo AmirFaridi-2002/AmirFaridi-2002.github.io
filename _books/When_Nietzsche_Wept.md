@@ -50,9 +50,6 @@ The premise is almost theatrical. Nietzsche arrives as a patient, suffering from
 
 That reversal is the heart of the book. The doctor needs treatment as much as the patient. The philosopher who teaches strength is drowning in loneliness. The man who analyzes others cannot understand himself.
 
----
-
-
 In this book, Yalom does not treat philosophy as decoration. Nietzsche’s ideas are not placed in the book merely to make the dialogue sound profound. They become therapeutic instruments.
 
 The novel keeps returning to a few existential questions:
