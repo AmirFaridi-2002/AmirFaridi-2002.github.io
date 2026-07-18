@@ -76,6 +76,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/When_Nietzsche_Wept/";
+            },},{id: "projects-correctness-and-incorrectness-reasoning-for-quantum-programs",
+          title: 'Correctness and Incorrectness Reasoning for Quantum Programs',
+          description: "BSC Thesis Report (University of Tehran)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/BSc-Thesis-Report/";
             },},{
         id: 'social-discord',
         title: 'Discord',
