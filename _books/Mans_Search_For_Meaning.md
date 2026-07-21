@@ -5,17 +5,16 @@ author: Viktor E. Frankl
 
 cover: assets/img/book_covers/Mans_Search_For_Meaning.jpg
 
-# olid:
-# isbn:
+isbn: 9780807014271
 
 date: 2026-07-22
 
-subtitle: "An introduction to logotherapy through suffering, freedom, and meaning"
-# released:
-# pages:
+# subtitle: "An introduction to logotherapy through suffering, freedom, and meaning"
+released: 2006
+pages: 165
 # publisher:
 language: en
-# format: paperback
+format: paperback
 
 categories:
   - nonfiction
@@ -40,16 +39,10 @@ rating: 4
 # buy_link:
 
 # Reading timeline
-# started:
-# finished:
+started: 2026-07-15
+finished: 2026-07-22
 
 summary: "A meditation on suffering, freedom, responsibility, and the discovery of meaning."
-content_warning:
-  - holocaust
-  - concentration-camps
-  - suffering
-  - death
-  - grief
 ---
 
 > “Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.”
