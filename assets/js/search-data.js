@@ -51,17 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tom-bombadil/";
           },
-        },{id: "books-for-the-win",
-          title: 'For the Win',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/For_The_Win/";
-            },},{id: "books-momma-amp-the-meaning-of-life",
-          title: 'Momma &amp;amp; the Meaning of Life',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/Momma_And_The_Meaning_Of_Lfe/";
-            },},{id: "books-the-midnight-library",
+        },{id: "books-the-midnight-library",
           title: 'The Midnight Library',
           description: "",
           section: "Books",handler: () => {
@@ -76,6 +66,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/When_Nietzsche_Wept/";
+            },},{id: "books-man-39-s-search-for-meaning",
+          title: 'Man&amp;#39;s Search for Meaning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Mans_Search_For_Meaning/";
             },},{id: "projects-correctness-and-incorrectness-reasoning-for-quantum-programs",
           title: 'Correctness and Incorrectness Reasoning for Quantum Programs',
           description: "BSC Thesis Report (University of Tehran)",
