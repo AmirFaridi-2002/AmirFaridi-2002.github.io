@@ -1,3 +1,4 @@
+<!--
 ---
 layout: book-review
 title: For the Win
@@ -49,3 +50,4 @@ content_warning:
   - police-violence
   - labor-abuse
 ---
+--->
