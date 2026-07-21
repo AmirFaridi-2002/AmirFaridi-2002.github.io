@@ -34,8 +34,8 @@ tags:
 # options: abandoned, finished, interested, paused, queued, reading, reread
 status: finished
 
-stars: 4.5
-rating: 4.5
+stars: 4
+rating: 4
 
 # buy_link:
 
