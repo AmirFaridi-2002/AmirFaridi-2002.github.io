@@ -1,45 +1,54 @@
 ---
 layout: book-review
-title: When Nietzsche Wept
-author: Irvin D. Yalom
+title: Man Search For Meaning
+author: Victor E. Frankl
 
-cover: assets/img/book_covers/When_Nietzsche_Wept.jpg
+cover: assets/img/book_covers/Mans_Search_For_Meaning.jpg
 
 
-isbn: 0062009303
+isbn: 9780807014271
 
-date: 2026-07-12
+date: 2026-07-22
 
 # subtitle: "Penguin Books paperback edition"
-released: 2011
-pages: 352
+released: 2006
+pages: 165
 # publisher: "Penguin Books"
 language: en
 format: paperback
 
 categories:
-  - fiction
-  - intellectual thriller
-  - philosophy
+  - nonfiction
+  - memoir
   - psychology
+  - philosophy
 
 tags:
-  - psychoanalysis
+  - meaning
+  - suffering
+  - logotherapy
   - existentialism
-  - obsession
+  - freedom
+  - responsibility
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
 status: finished
 
-stars: 5
-rating: 5
+stars: 4
+rating: 4
 
 # buy_link: https://www.amazon.com/Midnight-Library-Matt-Haig/dp/1786892731
 
-started: "2026-06-01"
-finished: "2026-07-12"
+started: "2026-07-15"
+finished: "2026-07-22"
 
-summary: "A philosophical novel about obsession, loneliness, therapy, and the courage to choose one's life."
+summary: "A meditation on suffering, freedom, responsibility, and the discovery of meaning."
+content_warning:
+  - holocaust
+  - concentration-camps
+  - death
+  - grief
+  - suffering
 ---
 
 > "Become who you are."
