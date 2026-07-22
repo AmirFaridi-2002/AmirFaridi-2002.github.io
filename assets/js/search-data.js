@@ -71,11 +71,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Mans_Search_For_Meaning/";
-            },},{id: "books-man-search-for-meaning",
-          title: 'Man Search For Meaning',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/When_Nietzsche_Wept_Copy/";
             },},{id: "projects-correctness-and-incorrectness-reasoning-for-quantum-programs",
           title: 'Correctness and Incorrectness Reasoning for Quantum Programs',
           description: "BSC Thesis Report (University of Tehran)",
