@@ -66,6 +66,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/When_Nietzsche_Wept/";
+            },},{id: "books-when-nietzsche-wept",
+          title: 'When Nietzsche Wept',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/When_Nietzsche_Wept_Copy/";
             },},{id: "books-man-39-s-search-for-meaning",
           title: 'Man&amp;#39;s Search for Meaning',
           description: "",
