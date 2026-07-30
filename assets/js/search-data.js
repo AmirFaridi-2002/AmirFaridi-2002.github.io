@@ -51,7 +51,27 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tom-bombadil/";
           },
-        },{id: "books-atomic-habits",
+        },{id: "books-the-midnight-library",
+          title: 'The Midnight Library',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The_Midnight_Library/";
+            },},{id: "books-regarding-the-pain-of-others",
+          title: 'Regarding the Pain of Others',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Regarding_The_Pain_Of_Others/";
+            },},{id: "books-when-nietzsche-wept",
+          title: 'When Nietzsche Wept',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/When_Nietzsche_Wept/";
+            },},{id: "books-man-39-s-search-for-meaning",
+          title: 'Man&amp;#39;s Search for Meaning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Mans_Search_For_Meaning/";
+            },},{id: "books-atomic-habits",
           title: 'Atomic Habits',
           description: "",
           section: "Books",handler: () => {
@@ -71,21 +91,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Hour_Of_The_Heart/";
-            },},{id: "books-man-39-s-search-for-meaning",
-          title: 'Man&amp;#39;s Search for Meaning',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/Mans_Search_For_Meaning/";
             },},{id: "books-momma-amp-the-meaning-of-life",
           title: 'Momma &amp;amp; the Meaning of Life',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Momma_And_The_Meaning_Of_Lfe/";
-            },},{id: "books-regarding-the-pain-of-others",
-          title: 'Regarding the Pain of Others',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/Regarding_The_Pain_Of_Others/";
             },},{id: "books-staring-at-the-sun",
           title: 'Staring at the Sun',
           description: "",
@@ -136,11 +146,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The_Hobbit/";
-            },},{id: "books-the-midnight-library",
-          title: 'The Midnight Library',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/The_Midnight_Library/";
             },},{id: "books-the-power-of-habit",
           title: 'The Power of Habit',
           description: "",
@@ -161,21 +166,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The_Silmarillion/";
-            },},{id: "books-the-story-of-civilization",
-          title: 'The Story of Civilization',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/The_Story_Of_Civilization/";
             },},{id: "books-the-two-towers",
           title: 'The Two Towers',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The_Two_Towers/";
-            },},{id: "books-when-nietzsche-wept",
-          title: 'When Nietzsche Wept',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/When_Nietzsche_Wept/";
             },},{id: "books-thus-spoke-zarathustra",
           title: 'Thus Spoke Zarathustra',
           description: "",
