@@ -220,6 +220,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/amirfaridi2002", "_blank");
         },
       },{
+        id: 'social-strava',
+        title: 'Strava',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.strava.com/athletes/198909735", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
