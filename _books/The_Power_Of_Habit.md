@@ -3,15 +3,13 @@ layout: book-review
 title: "The Power of Habit"
 author: "Charles Duhigg"
 
-cover: assets/img/book_covers/The_Power_Of_Habit.jpg
+cover: assets/img/book_covers/The_Power_Of_Habit.jpeg
 
 # olid:
 isbn: "9780812981605"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2014 Random House Trade Paperbacks edition
 subtitle: "Why We Do What We Do in Life and Business"
 released: 2012
 pages: 416
@@ -32,7 +30,7 @@ tags:
   - productivity
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: queued
 
 # stars:
 # rating:
@@ -45,5 +43,3 @@ tags:
 
 summary: "An exploration of the cue-routine-reward loop and the ways habits shape individuals, organizations, and societies."
 ---
-
-<!-- Write your review below this line. -->

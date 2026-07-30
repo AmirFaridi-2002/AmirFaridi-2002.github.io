@@ -9,10 +9,8 @@ cover: assets/img/book_covers/Beren_And_Luthien.jpg
 # olid:
 isbn: "9780063376403"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: William Morrow Paperbacks edition
 subtitle: "Edited by Christopher Tolkien"
 released: 2017
 pages: 288
@@ -33,7 +31,7 @@ tags:
   - love-and-sacrifice
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: interested
 
 # stars:
 # rating:
@@ -45,10 +43,4 @@ tags:
 # finished: "YYYY-MM-DD"
 
 summary: "The evolving versions of the First Age love story of the mortal Beren and the immortal Lúthien."
-content_warning:
-  - violence
-  - war
-  - death
 ---
-
-<!-- Write your review below this line. -->

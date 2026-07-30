@@ -3,15 +3,13 @@ layout: book-review
 title: "Atomic Habits"
 author: "James Clear"
 
-cover: assets/img/book_covers/Atomic_Habits.jpg
+cover: assets/img/book_covers/Atomic_Habits.jpeg
 
 # olid:
 isbn: "9780735211292"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2018 Avery hardcover edition
 subtitle: "An Easy & Proven Way to Build Good Habits & Break Bad Ones"
 released: 2018
 pages: 320
@@ -32,7 +30,7 @@ tags:
   - productivity
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: reading
 
 # stars:
 # rating:
@@ -45,5 +43,3 @@ tags:
 
 summary: "A practical framework for improving behavior through small changes, identity-based habits, and better systems."
 ---
-
-<!-- Write your review below this line. -->

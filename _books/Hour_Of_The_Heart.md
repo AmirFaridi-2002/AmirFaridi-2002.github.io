@@ -3,15 +3,13 @@ layout: book-review
 title: "Hour of the Heart"
 author: "Irvin D. Yalom and Benjamin Yalom"
 
-cover: assets/img/book_covers/Hour_Of_The_Heart.jpg
+cover: assets/img/book_covers/Hour_Of_The_Heart.webp
 
 # olid:
 isbn: "9780063321458"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2024 Harper hardcover edition
 subtitle: "Connecting in the Here and Now"
 released: 2024
 pages: 288
@@ -32,7 +30,7 @@ tags:
   - existential-psychology
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: interested
 
 # stars:
 # rating:
@@ -49,5 +47,3 @@ content_warning:
   - grief
   - mortality
 ---
-
-<!-- Write your review below this line. -->

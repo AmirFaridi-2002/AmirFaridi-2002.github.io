@@ -8,10 +8,8 @@ cover: assets/img/book_covers/The_Schopenhauer_Cure.jpg
 # olid:
 isbn: "9780060938109"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2006 HarperCollins paperback edition
 subtitle: "A Novel"
 released: 2005
 pages: 384
@@ -32,7 +30,7 @@ tags:
   - healing
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: interested
 
 # stars:
 # rating:

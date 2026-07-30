@@ -8,10 +8,8 @@ cover: assets/img/book_covers/The_Gift_Of_Therapy.jpg
 # olid:
 isbn: "9780062297266"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2013 HarperCollins e-book edition
 subtitle: "An Open Letter to a New Generation of Therapists and Their Patients"
 released: 2002
 pages: 320
@@ -31,7 +29,7 @@ tags:
   - clinical-practice
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: queued
 
 # stars:
 # rating:
@@ -48,5 +46,3 @@ content_warning:
   - grief
   - mortality
 ---
-
-<!-- Write your review below this line. -->

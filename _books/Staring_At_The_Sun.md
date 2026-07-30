@@ -3,15 +3,13 @@ layout: book-review
 title: "Staring at the Sun"
 author: "Irvin D. Yalom"
 
-cover: assets/img/book_covers/Staring_At_The_Sun.jpg
+cover: assets/img/book_covers/Staring_At_The_Sun.jpeg
 
 # olid:
 isbn: "9780470401811"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2009 Jossey-Bass paperback edition
 subtitle: "Overcoming the Terror of Death"
 released: 2008
 pages: 320
@@ -32,7 +30,7 @@ tags:
   - meaning
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: interested
 
 # stars:
 # rating:
@@ -50,5 +48,3 @@ content_warning:
   - anxiety
   - terminal-illness
 ---
-
-<!-- Write your review below this line. -->

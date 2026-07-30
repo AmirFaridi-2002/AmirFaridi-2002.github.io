@@ -4,15 +4,13 @@ title: "The Silmarillion"
 author: "J.R.R. Tolkien"
 editor: "Christopher Tolkien"
 
-cover: assets/img/book_covers/The_Silmarillion.jpg
+cover: assets/img/book_covers/The_Silmarillion.jpeg
 
 # olid:
 isbn: "9780544338012"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+# date: 2026-07-30
 
-# Edition used for the metadata below: 2014 William Morrow paperback edition
 subtitle: "Edited by Christopher Tolkien"
 released: 1977
 pages: 384
@@ -33,7 +31,7 @@ tags:
   - legendarium
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: reading
 
 # stars:
 # rating:
@@ -45,10 +43,4 @@ tags:
 # finished: "YYYY-MM-DD"
 
 summary: "A mythic history of Arda and Middle-earth, from creation through the wars over the Silmarils and the rise and fall of great kingdoms."
-content_warning:
-  - violence
-  - war
-  - death
 ---
-
-<!-- Write your review below this line. -->

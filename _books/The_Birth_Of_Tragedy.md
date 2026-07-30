@@ -8,10 +8,8 @@ cover: assets/img/book_covers/The_Birth_Of_Tragedy.jpg
 # olid:
 isbn: "9780140433395"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2003 Penguin Classics paperback translated by Shaun Whiteside
 subtitle: "Out of the Spirit of Music"
 released: 1872
 pages: 160
@@ -32,7 +30,7 @@ tags:
   - art
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: queued
 
 # stars:
 # rating:
@@ -45,5 +43,3 @@ tags:
 
 summary: "An early study of Greek tragedy through the tension between Apollonian form and Dionysian ecstasy."
 ---
-
-<!-- Write your review below this line. -->

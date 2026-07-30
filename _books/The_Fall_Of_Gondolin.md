@@ -9,10 +9,8 @@ cover: assets/img/book_covers/The_Fall_Of_Gondolin.jpg
 # olid:
 isbn: "9780063376397"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2024 William Morrow Paperbacks edition
 subtitle: "Edited by Christopher Tolkien"
 released: 2018
 pages: 304
@@ -33,7 +31,7 @@ tags:
   - legendarium
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: interested
 
 # stars:
 # rating:
@@ -50,5 +48,3 @@ content_warning:
   - war
   - death
 ---
-
-<!-- Write your review below this line. -->

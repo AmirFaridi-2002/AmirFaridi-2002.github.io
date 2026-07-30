@@ -8,10 +8,8 @@ cover: assets/img/book_covers/The_Return_Of_The_King.jpg
 # olid:
 isbn: "9780358380252"
 
-# Fill in the date on which you want this review to appear.
-# date: YYYY-MM-DD
+date: 2026-07-30
 
-# Edition used for the metadata below: 2020 Clarion Books paperback edition
 subtitle: "Being the Third Part of The Lord of the Rings"
 released: 1955
 pages: 544
@@ -32,7 +30,7 @@ tags:
   - sacrifice
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-# status:
+status: interested
 
 # stars:
 # rating:
@@ -44,10 +42,4 @@ tags:
 # finished: "YYYY-MM-DD"
 
 summary: "The concluding part of The Lord of the Rings, bringing the War of the Ring and the quest to destroy the One Ring to their resolution."
-content_warning:
-  - violence
-  - war
-  - death
 ---
-
-<!-- Write your review below this line. -->
