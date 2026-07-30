@@ -1,4 +1,3 @@
-<!--
 ---
 layout: book-review
 title: Momma & the Meaning of Life
@@ -31,7 +30,7 @@ tags:
   - relationships
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-status: reading
+status: queued
 
 stars:
 rating:
@@ -50,4 +49,3 @@ content_warning:
   - death
   - trauma
 ---
---->

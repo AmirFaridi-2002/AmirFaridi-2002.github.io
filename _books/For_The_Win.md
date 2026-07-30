@@ -1,4 +1,3 @@
-<!--
 ---
 layout: book-review
 title: For the Win
@@ -31,7 +30,7 @@ tags:
   - globalization
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-status: reading
+status: interested
 
 stars:
 rating:
@@ -50,4 +49,3 @@ content_warning:
   - police-violence
   - labor-abuse
 ---
---->
