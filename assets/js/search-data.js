@@ -56,26 +56,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The_Midnight_Library/";
-            },},{id: "books-regarding-the-pain-of-others",
-          title: 'Regarding the Pain of Others',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/Regarding_The_Pain_Of_Others/";
             },},{id: "books-when-nietzsche-wept",
           title: 'When Nietzsche Wept',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/When_Nietzsche_Wept/";
-            },},{id: "books-man-39-s-search-for-meaning",
-          title: 'Man&amp;#39;s Search for Meaning',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/Mans_Search_For_Meaning/";
             },},{id: "books-atomic-habits",
           title: 'Atomic Habits',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Atomic_Habits/";
+            },},{id: "books-behave",
+          title: 'Behave',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Behave/";
             },},{id: "books-beren-and-lúthien",
           title: 'Beren and Lúthien',
           description: "",
@@ -86,6 +81,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/For_The_Win/";
+            },},{id: "books-man-39-s-search-for-meaning",
+          title: 'Man&amp;#39;s Search for Meaning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Mans_Search_For_Meaning/";
             },},{id: "books-hour-of-the-heart",
           title: 'Hour of the Heart',
           description: "",
@@ -96,6 +96,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Momma_And_The_Meaning_Of_Lfe/";
+            },},{id: "books-power",
+          title: 'Power',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Power/";
+            },},{id: "books-regarding-the-pain-of-others",
+          title: 'Regarding the Pain of Others',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Regarding_The_Pain_Of_Others/";
             },},{id: "books-staring-at-the-sun",
           title: 'Staring at the Sun',
           description: "",
