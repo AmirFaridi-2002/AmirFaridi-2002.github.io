@@ -6,21 +6,65 @@ layout: page
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
+    <!-- 1. Hero Section for Currently Reading -->
+    {% assign reading_books = collection | where: "status", "reading" %}
+    {% if reading_books.size > 0 %}
+      <div class="reading-hero-section fade-up">
+        <h2 class="hero-title">Currently Reading</h2>
+        <div class="hero-books">
+          {% for item in reading_books reversed %}
+            <div class="hero-book-card">
+              <div class="hero-book-cover book-hover-3d">
+                <a href="{{ item.url | relative_url }}">
+                  {% if item.cover %}
+                    <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}">
+                  {% elsif item.olid %}
+                    <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false">
+                  {% elsif item.isbn %}
+                    <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false">
+                  {% endif %}
+                </a>
+              </div>
+              <div class="hero-book-info">
+                <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+                <p class="author">by {{ item.author }}</p>
+                {% if item.summary %}
+                  <p class="summary">{{ item.summary }}</p>
+                {% endif %}
+                {% if item.progress %}
+                  <div class="hero-progress-text">Progress: {{ item.progress }}</div>
+                  <div class="progress-bar-container">
+                    <div class="progress-bar-fill" style="width: {{ item.progress }};"></div>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- 2. Main Grid -->
+    {% assign year = nil %}
     {% for item in collection reversed %}
+      {% if item.status == 'reading' %}
+        {% continue %}
+      {% endif %}
+      
       {% assign current_year = item.date | date: '%Y' %}
       {% if current_year != year %}
-        {% unless forloop.first %}
-          </ul>
-        {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
+        {% if year %}
+          </div>
+        {% endif %}
+        <h1 class="chapter-header fade-up" id="y{{item.date | date: "%Y"}}">
           <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
         </h1>
-        <ul>
+        <div class="book-grid">
           {% assign year = current_year %}
       {% endif %}
 
-      <figure class="cover">
-        <a class="cover-link" href="{{ item.url | relative_url }}">
+      <figure class="cover fade-up">
+        <a class="cover-link book-hover-3d" href="{{ item.url | relative_url }}">
           {% if item.cover %}
             <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
           {% elsif item.olid %}
@@ -28,22 +72,42 @@ layout: page
           {% elsif item.isbn %}
             <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
           {% endif %}
-          {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-            {% assign status = item.status | downcase | strip %}
-            {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-            {% endif %}
+        </a>
+        {% if item.status %}
+          {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+          {% assign status = item.status | downcase | strip %}
+          {% if statuses contains status %}
+            <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
           {% else %}
             <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
           {% endif %}
-        </a>
+        {% else %}
+          <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+        {% endif %}
       </figure>
-      {% if forloop.last %}
-        </ul>
-      {% endif %}
     {% endfor %}
+    {% if year %}
+      </div>
+    {% endif %}
   {% endif %}
 {% endif %}
+
+<!-- 5. Organic Entrance Animations Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px"
+    });
+
+    document.querySelectorAll('.fade-up').forEach(el => {
+      observer.observe(el);
+    });
+  });
+</script>

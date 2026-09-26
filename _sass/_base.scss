@@ -1341,10 +1341,39 @@ ninja-keys::part(ninja-input-wrapper) {
 figure.cover {
   display: inline-block;
   text-align: center;
-  margin: 0.5rem; /* adjust as needed */
+  margin: 0.8rem;
+  padding: 10px;
+  background-color: var(--global-card-bg-color);
+  border-radius: 8px;
+  vertical-align: top;
+  width: 170px;
+  box-shadow: 0 2px 4px var(--global-divider-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px var(--global-divider-color);
+  }
 
   img {
     vertical-align: bottom;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+
+  .progress-bar-container {
+    background-color: var(--global-divider-color);
+    height: 5px;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+
+  .progress-bar-fill {
+    background-color: #f89406;
+    height: 100%;
   }
 
   figcaption.abandoned {
@@ -1410,4 +1439,123 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+/* --- ART-LIKE BOOK PAGE STYLES --- */
+
+.reading-hero-section {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: var(--global-card-bg-color);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.hero-title {
+  font-family: "Playfair Display", "Merriweather", serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--global-text-color);
+}
+
+.hero-books {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero-book-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .hero-book-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.hero-book-cover img {
+  height: 250px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.hero-book-info {
+  flex: 1;
+}
+
+.hero-book-info h3 {
+  margin-top: 0;
+  font-family: "Playfair Display", "Merriweather", serif;
+  font-size: 1.8rem;
+}
+
+.hero-book-info .author {
+  font-size: 1.1rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.hero-book-info .summary {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.hero-progress-text {
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.chapter-header {
+  font-family: "Playfair Display", "Merriweather", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 4rem 0 2rem;
+  font-weight: 400;
+  color: var(--global-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter-header::before, .chapter-header::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid var(--global-divider-color);
+  margin: 0 20px;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.book-hover-3d {
+  display: inline-block;
+  perspective: 1000px;
+}
+
+.book-hover-3d img {
+  transition: transform 0.5s ease;
+  transform-origin: left center;
+  box-shadow: inset 4px 0 10px rgba(0, 0, 0, 0.1), inset -1px 0 2px rgba(255, 255, 255, 0.3), 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.book-hover-3d:hover img {
+  transform: rotateY(-20deg) scale(1.05);
+  box-shadow: inset 4px 0 10px rgba(0, 0, 0, 0.1), inset -1px 0 2px rgba(255, 255, 255, 0.3), 15px 10px 25px rgba(0, 0, 0, 0.25);
 }

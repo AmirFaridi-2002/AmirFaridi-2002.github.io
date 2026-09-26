@@ -30,7 +30,8 @@ tags:
   - good-and-evil
 
 # options: abandoned, finished, interested, paused, queued, reading, reread
-status: queued
+status: reading
+progress: 50%
 
 # stars:
 # rating:
