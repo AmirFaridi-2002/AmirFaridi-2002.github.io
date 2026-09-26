@@ -1,5 +1,10 @@
+github_users:
+  - AmirFaridi-2002
+
 github_repos:
+  - repo: AmirFaridi-2002/CNS
+    description: "Computational Neuroscience course project covering neural biophysics, synaptic plasticity, network connectivity, and learning on the visual cortex."
+  - repo: AmirFaridi-2002/Assembly
+    description: "MS-DOS v1.25 source code exploration and image-processing tools implemented in x86 Assembly."
   - repo: AmirFaridi-2002/Solutions
-    description: "This repository collects my worked solutions for several 
-      books I've been studying. If you'd like to contribute—either by adding to 
-      the existing books or by starting solutions for a new book—feel free to email me"
+    description: "My worked solutions for several books I've been studying. Feel free to contribute!"
